@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="25.376" tests="7" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="JOB_NAME" value="Assessment"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="PWD" value="/usr/local/Cellar/jenkins/2.370/libexec"/>
+    <property name="localRepository" value="/Users/divyareddy/.m2/repository"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/Assessment/30/display/redirect?page=tests"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="/Users/divyareddy/.jenkins"/>
+    <property name="PATH" value="/usr/local/opt/openjdk@11/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"/>
+    <property name="HUDSON_SERVER_COOKIE" value="c8c66de0174c6c7e"/>
+    <property name="LSCOLORS" value="Gxfxcxdxbxegedabagacad"/>
+    <property name="POM_ARTIFACTID" value="TechnicalAssessment"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="TERM_PROGRAM" value="iTerm.app"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="TERM_SESSION_ID" value="w0t0p0:ED63653D-F0EE-41FB-B4AA-7898FA34617B"/>
+    <property name="COLORFGBG" value="7;0"/>
+    <property name="POM_DISPLAYNAME" value="TechnicalAssessment"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="NODE_LABELS" value="built-in"/>
+    <property name="java.runtime.version" value="11.0.12+0"/>
+    <property name="user.name" value="divyareddy"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="LaunchInstanceID" value="1531FE43-EBAF-4142-AC9D-78C6144AAAA8"/>
+    <property name="SECURITYSESSIONID" value="186a7"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="Assessment"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/Assessment/30/display/redirect?page=changes"/>
+    <property name="COMMAND_MODE" value="unix2003"/>
+    <property name="BUILD_DISPLAY_NAME" value="#30"/>
+    <property name="TMPDIR" value="/var/folders/31/llrj_f597hq30hv5dgr8stjw0000gn/T/"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk@11/11.0.12/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.version" value="11.0.12"/>
+    <property name="XPC_FLAGS" value="0x0"/>
+    <property name="user.timezone" value="Australia/Melbourne"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="built-in"/>
+    <property name="TERM" value="xterm-256color"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ZSH" value="/Users/divyareddy/.oh-my-zsh"/>
+    <property name="BUILD_ID" value="30"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="SHELL" value="/bin/zsh"/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.8.4/libexec/conf"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="AU"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk@11/11.0.12/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="11.6.2"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/Assessment/30/display/redirect"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="sun.font.fontmanager" value="sun.font.CFontManager"/>
+    <property name="webdriver.chrome.driver" value="/Users/divyareddy/.cache/selenium/chromedriver/mac64/105.0.5195.52/chromedriver"/>
+    <property name="path.separator" value=":"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/Assessment/30/display/redirect?page=artifacts"/>
+    <property name="java.vm.version" value="11.0.12+0"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/Assessment/display/redirect"/>
+    <property name="SHLVL" value="1"/>
+    <property name="_" value="/usr/bin/java"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="JAVA_HOME" value="/usr/local/opt/openjdk@11"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="LOGNAME" value="divyareddy"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="HOME" value="/Users/divyareddy"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="LC_TERMINAL_VERSION" value="3.4.16"/>
+    <property name="POM_GROUPID" value="TechnicalAssessment"/>
+    <property name="user.home" value="/Users/divyareddy"/>
+    <property name="BUILD_TAG" value="jenkins-Assessment-30"/>
+    <property name="JENKINS_SERVER_COOKIE" value="c8c66de0174c6c7e"/>
+    <property name="XPC_SERVICE_NAME" value="0"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="java.version.date" value="2021-07-20"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.library.path" value="/Users/divyareddy/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="LC_TERMINAL" value="iTerm2"/>
+    <property name="JAVA_MAIN_CLASS_4893" value="executable.Main"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.8.4/libexec"/>
+    <property name="java.class.path" value="/Users/divyareddy/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-agent-1.13.jar:/usr/local/Cellar/maven/3.8.4/libexec/boot/plexus-classworlds-2.6.0.jar:/usr/local/Cellar/maven/3.8.4/libexec/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main /usr/local/Cellar/maven/3.8.4/libexec /Users/divyareddy/.jenkins/war/WEB-INF/lib/remoting-3063.v26e24490f041.jar /Users/divyareddy/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.13.jar /Users/divyareddy/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.13.jar 52103"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="jansi.mode" value="strip"/>
+    <property name="PATH+JDK" value="/usr/local/opt/openjdk@11/bin"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="M2_HOME" value="/usr/local/Cellar/maven/3.8.4/libexec"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="surefire.test.class.path" value="/Users/divyareddy/eclipse-workspace/TechnicalAssessment/target/test-classes:/Users/divyareddy/eclipse-workspace/TechnicalAssessment/target/classes:/Users/divyareddy/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/divyareddy/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/divyareddy/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/divyareddy/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/divyareddy/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/divyareddy/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/divyareddy/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/divyareddy/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/divyareddy/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/divyareddy/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/divyareddy/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/divyareddy/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/divyareddy/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/divyareddy/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/divyareddy/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/divyareddy/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/divyareddy/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/divyareddy/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/divyareddy/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/divyareddy/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/divyareddy/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/divyareddy/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/divyareddy/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/divyareddy/.m2/repository/io/github/bonigarcia/webdrivermanager/5.3.0/webdrivermanager-5.3.0.jar:/Users/divyareddy/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/divyareddy/.m2/repository/com/google/code/gson/gson/2.9.1/gson-2.9.1.jar:/Users/divyareddy/.m2/repository/com/github/docker-java/docker-java/3.2.13/docker-java-3.2.13.jar:/Users/divyareddy/.m2/repository/com/github/docker-java/docker-java-core/3.2.13/docker-java-core-3.2.13.jar:/Users/divyareddy/.m2/repository/com/github/docker-java/docker-java-api/3.2.13/docker-java-api-3.2.13.jar:/Users/divyareddy/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/divyareddy/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/divyareddy/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/divyareddy/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/divyareddy/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/divyareddy/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64.jar:/Users/divyareddy/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar:/Users/divyareddy/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/divyareddy/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.2.13/docker-java-transport-httpclient5-3.2.13.jar:/Users/divyareddy/.m2/repository/com/github/docker-java/docker-java-transport/3.2.13/docker-java-transport-3.2.13.jar:/Users/divyareddy/.m2/repository/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar:/Users/divyareddy/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/divyareddy/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/divyareddy/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.1.3/httpclient5-5.1.3.jar:/Users/divyareddy/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.1.3/httpcore5-5.1.3.jar:/Users/divyareddy/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.1.3/httpcore5-h2-5.1.3.jar:/Users/divyareddy/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/divyareddy/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.18.1/surefire-testng-utils-2.18.1.jar:/Users/divyareddy/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.18.1/surefire-grouper-2.18.1.jar:"/>
+    <property name="CI" value="true"/>
+    <property name="java.io.tmpdir" value="/var/folders/31/llrj_f597hq30hv5dgr8stjw0000gn/T/"/>
+    <property name="HUDSON_HOME" value="/Users/divyareddy/.jenkins"/>
+    <property name="PATH+MAVEN" value="/usr/local/Cellar/maven/3.8.4/libexec/bin"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="OLDPWD" value="/usr/local/Cellar/jenkins/2.370/libexec"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/Assessment/30/"/>
+    <property name="PAGER" value="less"/>
+    <property name="ITERM_PROFILE" value="Default"/>
+    <property name="SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.5xw2il6lqE/Listeners"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="__CF_USER_TEXT_ENCODING" value="0x1F5:0x0:0xF"/>
+    <property name="user.dir" value="/Users/divyareddy/eclipse-workspace/TechnicalAssessment"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/Assessment/"/>
+    <property name="MAVEN_HOME" value="/usr/local/Cellar/maven/3.8.4/libexec"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="30"/>
+    <property name="TERM_PROGRAM_VERSION" value="3.4.16"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="basedir" value="/Users/divyareddy/eclipse-workspace/TechnicalAssessment"/>
+    <property name="COLORTERM" value="truecolor"/>
+    <property name="ITERM_SESSION_ID" value="w0t0p0:ED63653D-F0EE-41FB-B4AA-7898FA34617B"/>
+    <property name="__CFBundleIdentifier" value="com.googlecode.iterm2"/>
+    <property name="LANG" value="en_AU.UTF-8"/>
+    <property name="LESS" value="-R"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="maven3.interceptor" value="/Users/divyareddy/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.13.jar"/>
+    <property name="WORKSPACE_TMP" value="/Users/divyareddy/.jenkins/workspace/Assessment@tmp"/>
+    <property name="WORKSPACE" value="/Users/divyareddy/.jenkins/workspace/Assessment"/>
+    <property name="maven3.interceptor.common" value="/Users/divyareddy/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.13.jar"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="USER" value="divyareddy"/>
+  </properties>
+  <testcase name="ErrorMessageVerification" classname="contact" time="5.992"/>
+  <testcase name="contact_submit" classname="contact" time="6.222"/>
+  <testcase name="contact_submit" classname="contact" time="32.409">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;alert alert-success&apos;]&quot;}&#10;  (Session info: chrome=105.0.5195.125)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Divyas-MBP&apos;, ip: &apos;fe80:0:0:0:cfe:5e6b:7e6:1d9e%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;11.6.2&apos;, java.version: &apos;11.0.12&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.125, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/31/llrj_f597hq...}, goog:chromeOptions: {debuggerAddress: localhost:52151}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 7004e99dcc5b8dfc76051fb2e7f66ee4&#10;*** Element info: {Using=xpath, value=//div[@class=&apos;alert alert-success&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='alert alert-success']"}
+  (Session info: chrome=105.0.5195.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Divyas-MBP', ip: 'fe80:0:0:0:cfe:5e6b:7e6:1d9e%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '11.6.2', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.125, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: /var/folders/31/llrj_f597hq...}, goog:chromeOptions: {debuggerAddress: localhost:52151}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7004e99dcc5b8dfc76051fb2e7f66ee4
+*** Element info: {Using=xpath, value=//div[@class='alert alert-success']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at contact.contact_submit(contact.java:54)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 10522
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="contact_submit" classname="contact" time="5.845"/>
+  <testcase name="contact_submit" classname="contact" time="3.976"/>
+  <testcase name="contact_submit" classname="contact" time="4.531"/>
+  <testcase name="Shopping" classname="contact" time="13.162"/>
+</testsuite>
