@@ -51,8 +51,8 @@ public void contact_submit() throws InterruptedException {
 		driver.findElement(By.xpath("//a[@class='btn-contact btn btn-primary' and text()='Submit']")).click();
 		Thread.sleep(1000);
 	//**********VERIFYING THE SUCESSFULL MESSAGE********
-		String sucessfull_message = driver.findElement(By.xpath("//div[@class='alert alert-success']")).getText();
-		String Actual_sucessfull_message = sucessfull_message;
+		WebElement  sucessfull_message = driver.findElement(By.xpath("//div[@class='alert alert-success']"));
+		String Actual_sucessfull_message = sucessfull_message.getText();
 		String Expected_message = "Thanks " +name+", we appreciate your feedback.";
 		Assert.assertEquals(Actual_sucessfull_message, Expected_message);
 		System.out.println("The display message is correct");
